@@ -1,0 +1,11 @@
+.body{
+    -fx-background-image:url("assests/wingSide.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.text-field, .password-field {
+    -fx-background-color: transparent; /* Make the background transparent */
+    -fx-border-width:0px 0px 3px 0px;
+    -fx-border-color:#85c1e9;
+}

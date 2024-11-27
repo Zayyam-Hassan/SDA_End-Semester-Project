@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="431.0" style="-fx-background-color: #7fb3d5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Admin.AddEmergencyController">
+   <children>
+      <Button layoutX="666.0" layoutY="34.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" style="-fx-background-color: transparent;" />
+      <Text layoutX="98.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Emergency" wrappingWidth="237.5101852416991">
+         <font>
+            <Font name="Century Gothic Bold" size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="AddEmergency" layoutX="158.0" layoutY="279.0" mnemonicParsing="false" onAction="#onClickAddEmergency" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #2980b9; -fx-background-radius: 30px;" text="Add" textFill="WHITE" />
+      <TextField fx:id="EmergencyDescription" layoutX="102.0" layoutY="137.0" prefHeight="25.0" prefWidth="238.0" promptText="Emergency Description" />
+      <CheckBox fx:id="Police" layoutX="102.0" layoutY="202.0" mnemonicParsing="false" text="Police" />
+      <CheckBox fx:id="FireBrigade" layoutX="174.0" layoutY="202.0" mnemonicParsing="false" text="Fire Brigade" />
+      <CheckBox fx:id="MedicalTeam" layoutX="270.0" layoutY="202.0" mnemonicParsing="false" text="Medical Team" />
+   </children>
+</Pane>

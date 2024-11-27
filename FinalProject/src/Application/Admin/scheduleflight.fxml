@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="645.0" style="-fx-background-color: #7dcea0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Admin.ScheduleFlightController">
+   <children>
+      <Button layoutX="666.0" layoutY="34.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" style="-fx-background-color: transparent;" />
+      <Text layoutX="203.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Schedule Flight" wrappingWidth="237.5101852416991">
+         <font>
+            <Font name="Century Gothic Bold" size="30.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="From" layoutX="104.0" layoutY="147.0" prefHeight="25.0" prefWidth="199.0" promptText="From" />
+      <ComboBox fx:id="To" layoutX="338.0" layoutY="147.0" prefHeight="25.0" prefWidth="199.0" promptText="To" />
+      <DatePicker fx:id="DepartureTime" layoutX="104.0" layoutY="202.0" prefHeight="25.0" prefWidth="199.0" promptText="Departure Time" />
+      <DatePicker fx:id="ArrivalTime" layoutX="341.0" layoutY="202.0" prefHeight="25.0" prefWidth="199.0" promptText="Arrival Time" />
+      <Text layoutX="97.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Economy Class">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="287.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Class">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="441.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Business Class">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="226.0" layoutY="311.0" orientation="VERTICAL" prefHeight="141.0" prefWidth="6.0" />
+      <Separator layoutX="409.0" layoutY="311.0" orientation="VERTICAL" prefHeight="141.0" prefWidth="6.0" />
+      <Separator layoutX="79.0" layoutY="328.0" prefHeight="17.0" prefWidth="481.0" />
+      <ComboBox fx:id="EconomyBaggage" layoutX="66.0" layoutY="399.0" prefWidth="150.0" promptText="Baggage Allowed" />
+      <TextField fx:id="EconomyPrice" layoutX="67.0" layoutY="354.0" promptText="Price" />
+      <TextField fx:id="FirstClassPrice" layoutX="245.0" layoutY="354.0" promptText="Price" />
+      <TextField fx:id="BusinessClassPrice" layoutX="430.0" layoutY="354.0" promptText="Price" />
+      <Button fx:id="ScheduleFlight" layoutX="262.0" layoutY="492.0" mnemonicParsing="false" onAction="#onClickScheduleFlight" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #229954; -fx-background-radius: 30px;" text="Schedule Flight" textFill="WHITE" />
+      <ComboBox fx:id="FirstClassBaggage" layoutX="244.0" layoutY="399.0" prefWidth="150.0" promptText="Baggage Allowed" />
+      <ComboBox fx:id="BusinessClassBaggage" layoutX="429.0" layoutY="399.0" prefWidth="150.0" promptText="Baggage Allowed" />
+      <ComboBox fx:id="SelectGate" layoutX="104.0" layoutY="252.0" prefHeight="25.0" prefWidth="199.0" promptText="Select Gate" />
+      <TextField fx:id="FlightNum" layoutX="340.0" layoutY="252.0" prefHeight="25.0" prefWidth="199.0" promptText="Flight Number" />
+   </children>
+</Pane>

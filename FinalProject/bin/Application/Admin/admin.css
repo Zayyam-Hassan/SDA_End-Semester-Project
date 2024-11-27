@@ -1,0 +1,18 @@
+.QR_image{
+
+    -fx-background-image:url("images/QR.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+
+
+}
+.barcode_image{
+
+    -fx-background-image:url("images/barcode.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+
+
+}

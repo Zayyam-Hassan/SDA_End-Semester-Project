@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="631.0" style="-fx-background-color: #73c6b6;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Passenger.BuyNowController">
+   <children>
+      <Text layoutX="182.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Payment">
+         <font>
+            <Font name="Century Gothic Bold" size="32.0" />
+         </font>
+      </Text>
+      <Separator layoutX="-2.0" layoutY="93.0" prefHeight="0.0" prefWidth="631.0" />
+      <Text fx:id="Class" layoutX="389.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="Fullname" layoutX="79.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMER FAROOQ">
+         <font>
+            <Font name="Century Gothic Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="79.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME OF PASSENGER">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="386.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seat ">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="Seat" layoutX="386.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="17-F">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="80.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLIGHT NO">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="390.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE" wrappingWidth="34.2412109375">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="389.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASS">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="flightno" layoutX="158.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AB12">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="Date" layoutX="433.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 AUG 2025">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="Price" layoutX="136.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="250,000/-">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="80.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" wrappingWidth="34.2412109375">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="PayNow" layoutX="258.0" layoutY="364.0" mnemonicParsing="false" onAction="#onClickPayNow" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #117864; -fx-background-radius: 30px;" text="Pay now" textFill="WHITE" />
+   </children>
+</Pane>

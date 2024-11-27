@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="717.0" style="-fx-background-color: #edbb99;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Admin.viewflightsController">
+   <children>
+      <Pane fx:id="pane4" layoutX="18.0" layoutY="394.0" prefHeight="95.0" prefWidth="681.0" style="-fx-background-color: #dc7633;">
+         <children>
+            <Text layoutX="190.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLIGHT NO">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="flightno4" layoutX="268.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AB12">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE" wrappingWidth="34.2412109375">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="date4" layoutX="413.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 AUG 2025">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPARTURE TIME">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="time4" layoutX="487.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16:30 AM">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="190.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TO">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="to4" layoutX="218.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BANGKOK">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <FontAwesomeIconView glyphName="PLANE" layoutX="643.0" layoutY="37.0" size="30" tabSize="0" text="" />
+            <Button fx:id="cancelflight4" layoutX="35.0" layoutY="29.0" mnemonicParsing="false" onAction="#onClickcancelflight4" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #d33333; -fx-background-radius: 30px;" text="Cancel Flight" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Text layoutX="42.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PREVIOUS">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="624.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEXT">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Pane fx:id="pane3" layoutX="18.0" layoutY="291.0" prefHeight="95.0" prefWidth="681.0" style="-fx-background-color: #dc7633;">
+         <children>
+            <Text layoutX="190.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLIGHT NO">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="flightno3" layoutX="268.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AB12">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE" wrappingWidth="34.2412109375">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="date3" layoutX="413.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 AUG 2025">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPARTURE TIME">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="time3" layoutX="486.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16:30 AM">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="190.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TO">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="to3" layoutX="218.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BANGKOK">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <FontAwesomeIconView glyphName="PLANE" layoutX="643.0" layoutY="37.0" size="30" tabSize="0" text="" />
+            <Button fx:id="cancelflight3" layoutX="35.0" layoutY="29.0" mnemonicParsing="false" onAction="#onClickcancelflight3" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #d33333; -fx-background-radius: 30px;" text="Cancel Flight" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane2" layoutX="18.0" layoutY="187.0" prefHeight="95.0" prefWidth="681.0" style="-fx-background-color: #dc7633;">
+         <children>
+            <Text layoutX="190.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLIGHT NO">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="flightno2" layoutX="268.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AB12">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE" wrappingWidth="34.2412109375">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="date2" layoutX="413.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 AUG 2025">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPARTURE TIME">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="time2" layoutX="487.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16:30 AM">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="190.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TO">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="to2" layoutX="218.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BANGKOK">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <FontAwesomeIconView glyphName="PLANE" layoutX="643.0" layoutY="37.0" size="30" tabSize="0" text="" />
+            <Button fx:id="cancelflight2" layoutX="35.0" layoutY="29.0" mnemonicParsing="false" onAction="#onClickcancelflight2" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #d33333; -fx-background-radius: 30px;" text="Cancel Flight" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane1" layoutX="18.0" layoutY="83.0" prefHeight="95.0" prefWidth="681.0" style="-fx-background-color: #dc7633;">
+         <children>
+            <Text layoutX="190.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLIGHT NO">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="flightno1" layoutX="268.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AB12">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE" wrappingWidth="34.2412109375">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="date1" layoutX="413.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 AUG 2025">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="369.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPARTURE TIME">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="time1" layoutX="487.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16:30 AM">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="190.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TO">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="to1" layoutX="218.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BANGKOK">
+               <font>
+                  <Font name="Century Gothic Bold" size="21.0" />
+               </font>
+            </Text>
+            <FontAwesomeIconView glyphName="PLANE" layoutX="643.0" layoutY="37.0" size="30" tabSize="0" text="" />
+            <Button fx:id="cancelflight1" layoutX="35.0" layoutY="29.0" mnemonicParsing="false" onAction="#onClickcancelflight1" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #d33333; -fx-background-radius: 30px;" text="Cancel Flight" textFill="WHITE" />
+         </children>
+      </Pane>
+      <TextField fx:id="searchhere" layoutX="517.0" layoutY="32.0" promptText="Search" style="-fx-prompt-text-fill: black; -fx-background-color: transparent; -fx-border-width: 0px 0px 3px 0px; -fx-border-style: solid;" />
+      <Button fx:id="searchbutton" layoutX="666.0" layoutY="34.0" mnemonicParsing="false" onAction="#onClicksearchbutton" prefHeight="25.0" prefWidth="24.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <FontAwesomeIconView glyphName="SEARCH" size="18" text="" />
+         </graphic>
+      </Button>
+      <Button fx:id="Previousbutton" layoutX="14.0" layoutY="521.0" mnemonicParsing="false" onAction="#onClickPrevious" prefHeight="43.0" prefWidth="30.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <FontAwesomeIconView glyphName="CARET_LEFT" size="35" text="" />
+         </graphic>
+      </Button>
+      <Button fx:id="Nextbutton" layoutX="674.0" layoutY="519.0" mnemonicParsing="false" onAction="#onClickNext" prefHeight="30.0" prefWidth="29.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <FontAwesomeIconView glyphName="CARET_RIGHT" size="40" />
+         </graphic>
+      </Button>
+   </children>
+</Pane>

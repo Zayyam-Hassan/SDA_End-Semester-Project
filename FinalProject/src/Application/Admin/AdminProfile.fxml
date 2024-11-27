@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Admin.AdminProfileController">
+   <left>
+      <AnchorPane prefHeight="550.0" prefWidth="250.0" style="-fx-background-color: #353A56; -fx-border-style: solid;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="inner_pane" layoutX="14.0" layoutY="14.0" prefHeight="60.0" prefWidth="223.0" style="-fx-background-color: #748CF1; -fx-border-radius: 20px;" styleClass="inner_pane" stylesheets="@../../StyleSheet/Passengerstyle.css">
+               <children>
+                  <Text layoutX="93.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+                     <font>
+                        <Font name="Century Gothic" size="20.0" />
+                     </font>
+                  </Text>
+                  <FontAwesomeIconView glyphName="USER" layoutX="69.0" layoutY="36.0" size="20" />
+               </children>
+            </Pane>
+            <Button fx:id="Home" layoutX="15.0" layoutY="97.0" mnemonicParsing="false" onAction="#onClickHome" prefHeight="48.0" prefWidth="222.0" style="-fx-background-color: BLACK; -fx-background-radius: 20px;" text="Home" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="HOME" size="20" />
+               </graphic>
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="EmergencySituations" layoutX="14.0" layoutY="170.0" mnemonicParsing="false" onAction="#onClickEmergencySituations" prefHeight="48.0" prefWidth="222.0" style="-fx-background-color: Transparent; -fx-background-radius: 20px;" text="Emergency Situations" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="WARNING" size="20" />
+               </graphic>
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Notifications" layoutX="15.0" layoutY="247.0" mnemonicParsing="false" onAction="#onClickNotifications" prefHeight="48.0" prefWidth="222.0" style="-fx-background-color: transparent; -fx-background-radius: 20px;" text="Notifications" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="BELL" size="20" />
+               </graphic>
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Logout" layoutX="14.0" layoutY="488.0" mnemonicParsing="false" onAction="#onClickLogout" prefHeight="48.0" prefWidth="222.0" style="-fx-background-color: transparent; -fx-background-radius: 20px;" text="Logout" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="CARET_LEFT" size="20" />
+               </graphic>
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="550.0" prefWidth="484.0" style="-fx-background-color: #d5dbdb;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="33.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!">
+               <font>
+                  <Font name="Century Gothic Bold" size="31.0" />
+               </font>
+            </Text>
+            <Text layoutX="33.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Control the flow with just one click." />
+            <Pane layoutX="21.0" layoutY="137.0" prefHeight="207.0" prefWidth="414.0" style="-fx-background-color: #748CF1; -fx-background-radius: 20px; -fx-border-style: solid; -fx-border-radius: 20px;">
+               <children>
+                  <FontAwesomeIconView fill="#353a56" glyphName="PLANE" layoutX="307.0" layoutY="118.0" size="130" text="" />
+                  <Text fill="WHITE" layoutX="24.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ready to set the skies in motion?">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="24.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Schedule a flight now and ensure a">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="25.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="smooth journey for your passengers">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="24.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="with just one click!">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="ScheduleFlight" layoutX="85.0" layoutY="134.0" mnemonicParsing="false" onAction="#onClickScheduleFlight" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #353a56; -fx-background-radius: 30px;" text="Schedule Flight" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane layoutX="21.0" layoutY="367.0" prefHeight="154.0" prefWidth="286.0" style="-fx-background-color: #f0b27a; -fx-background-radius: 20px; -fx-border-style: dotted; -fx-border-radius: 20px;">
+               <children>
+                  <Text layoutX="19.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Facing an emergency?">
+                     <font>
+                        <Font name="Century Gothic Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="19.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add critical updates in seconds.">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="AddEmergency" layoutX="86.0" layoutY="94.0" mnemonicParsing="false" onAction="#onClickAddEmergency" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #af601a; -fx-background-radius: 30px;" text="Add Emergency" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane layoutX="321.0" layoutY="367.0" prefHeight="154.0" prefWidth="354.0" style="-fx-background-color: #b3b6b7; -fx-background-radius: 20px; -fx-border-style: solid; -fx-border-radius: 20px;">
+               <children>
+                  <Text layoutX="31.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get all the essential information, from ">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="FlightDetails" layoutX="131.0" layoutY="104.0" mnemonicParsing="false" onAction="#onClickFlightDetails" prefHeight="36.0" prefWidth="93.0" style="-fx-background-color: #7b7d7d; -fx-background-radius: 30px;" text="Flight Detalis" textFill="WHITE" />
+                  <Text layoutX="72.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View flight details now!">
+                     <font>
+                        <Font name="Century Gothic Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="32.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to statuses, in one place.">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <FontAwesomeIconView glyphName="COG" layoutX="615.0" layoutY="39.0" size="20" text="" />
+            <Pane fx:id="profile_image" layoutX="648.0" layoutY="13.0" prefHeight="38.0" prefWidth="37.0" styleClass="profile_image" stylesheets="@StyleSheet/Passengerstyle.css" />
+            <Pane layoutX="443.0" layoutY="137.0" prefHeight="207.0" prefWidth="232.0" style="-fx-background-color: #aed6f1; -fx-background-radius: 20px; -fx-border-style: dotted; -fx-border-radius: 20px;">
+               <children>
+                  <Text layoutX="25.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Need passenger info?">
+                     <font>
+                        <Font name="Century Gothic Bold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="18.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View details instantly with">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="PassengerInfo" layoutX="52.0" layoutY="130.0" mnemonicParsing="false" onAction="#onClickPassengerInfo" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #2e86c1; -fx-background-radius: 30px;" text="Passengers Info" textFill="WHITE" />
+                  <Text layoutX="18.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="just a click!">
+                     <font>
+                        <Font name="Century Gothic" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

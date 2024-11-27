@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="666.0" style="-fx-background-color: #edbb99;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Passenger.NotificationsController">
+   <children>
+      <Pane fx:id="pane1" layoutX="18.0" layoutY="83.0" prefHeight="64.0" prefWidth="615.0" style="-fx-background-color: #dc7633; -fx-border-style: solid; -fx-border-radius: 5;">
+         <children>
+            <Text fx:id="text1" layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Umer Farooq has logged in successfully into the airport system.">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text layoutX="237.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notifications">
+         <font>
+            <Font name="Century Gothic Bold" size="32.0" />
+         </font>
+      </Text>
+      <Pane fx:id="pane2" layoutX="18.0" layoutY="163.0" prefHeight="64.0" prefWidth="615.0" style="-fx-background-color: #dc7633; -fx-border-style: solid; -fx-border-radius: 5;">
+         <children>
+            <Text fx:id="text2" layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The user has reserved a ticket with seat number 2.">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="pane4" layoutX="18.0" layoutY="323.0" prefHeight="64.0" prefWidth="615.0" style="-fx-background-color: #dc7633; -fx-border-style: solid; -fx-border-radius: 5;">
+         <children>
+            <Text fx:id="text4" layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The ticket which you purchased is for economy class">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="pane3" layoutX="18.0" layoutY="243.0" prefHeight="64.0" prefWidth="615.0" style="-fx-background-color: #dc7633; -fx-border-style: solid; -fx-border-radius: 5;">
+         <children>
+            <Text fx:id="text3" layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The airplane with set of at 12 : 00 AM.">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="pane5" layoutX="18.0" layoutY="403.0" prefHeight="64.0" prefWidth="615.0" style="-fx-background-color: #dc7633; -fx-border-style: solid; -fx-border-radius: 5;">
+         <children>
+            <Text fx:id="text5" layoutX="14.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thanks for joining us on this beautiful journey.">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text layoutX="47.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Previous">
+         <font>
+            <Font name="Century Gothic Bold" size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="548.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next">
+         <font>
+            <Font name="Century Gothic Bold" size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="Previousbutton" layoutX="17.0" layoutY="472.0" mnemonicParsing="false" onAction="#onClickPrevious" prefHeight="25.0" prefWidth="24.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <FontAwesomeIconView glyphName="CARET_LEFT" size="35" text="" />
+         </graphic>
+      </Button>
+      <Button fx:id="nextbutton" layoutX="606.0" layoutY="476.0" mnemonicParsing="false" onAction="#onClickNext" prefHeight="25.0" prefWidth="24.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <FontAwesomeIconView glyphName="CARET_RIGHT" size="30" />
+         </graphic>
+      </Button>
+   </children>
+</Pane>

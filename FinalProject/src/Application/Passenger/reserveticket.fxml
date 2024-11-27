@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="701.0" style="-fx-background-color: #edbb99;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Passenger.reserveticketController">
+   <children>
+      <Text layoutX="216.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ticket Reservation">
+         <font>
+            <Font name="Century Gothic Bold" size="32.0" />
+         </font>
+      </Text>
+      <Separator layoutX="-2.0" layoutY="93.0" prefHeight="3.0" prefWidth="701.0" style="-fx-border-style: solid;" />
+      <Text fx:id="Class" layoutX="485.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="Fullname" layoutX="52.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UMER FAROOQ">
+         <font>
+            <Font name="Century Gothic Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="52.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME OF PASSENGER">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="483.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seat ">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="Seat" layoutX="483.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="17-F">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="52.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FROM">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="From" layoutX="101.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DUBAI">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="52.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TO">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="Flight" layoutX="52.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLIGHT NO">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="486.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE" wrappingWidth="34.2412109375">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="233.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPARTURE TIME">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="485.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASS">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="To" layoutX="80.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BANGKOK">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="Flightno" layoutX="130.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AB12">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Text fx:id="DepartureTime" layoutX="351.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16:30 AM">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="Date" layoutX="530.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 AUG 2025">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Text>
+      <Button fx:id="ConfirmPayment" layoutX="221.0" layoutY="403.0" mnemonicParsing="false" onAction="#onClickConfirmPayment" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #ba4a00; -fx-background-radius: 30px;" text="Confirm Payment" textFill="WHITE" />
+      <Button fx:id="CancelReservation" layoutX="361.0" layoutY="403.0" mnemonicParsing="false" onAction="#onClickCancelReservation" prefHeight="36.0" prefWidth="129.0" style="-fx-background-color: #ba4a00; -fx-background-radius: 30px;" text="Cancel Reservation" textFill="WHITE" />
+   </children>
+</Pane>

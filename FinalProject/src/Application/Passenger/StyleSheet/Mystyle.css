@@ -1,0 +1,6 @@
+.body{
+    -fx-background-image:url("assests/myplane.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}

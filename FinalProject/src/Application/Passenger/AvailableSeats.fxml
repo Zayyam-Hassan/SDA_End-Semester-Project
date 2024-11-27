@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="394.0" style="-fx-background-color: #edbb99;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Passenger.AvailableSeatsController">
+   <children>
+      <Text layoutX="82.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AVAILABLE SEATS">
+         <font>
+            <Font name="Century Gothic Bold" size="28.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="ChooseSeat" layoutX="88.0" layoutY="149.0" prefHeight="25.0" prefWidth="219.0" promptText="Choose a seat" />
+      <Button fx:id="AddBaggage" layoutX="139.0" layoutY="224.0" mnemonicParsing="false" onAction="#onClickAddBaggage" prefHeight="36.0" prefWidth="115.0" style="-fx-background-color: #ba4a00; -fx-background-radius: 30px;" text="Add Baggage" textFill="WHITE" />
+      <CheckBox fx:id="Economy" layoutX="63.0" layoutY="101.0" mnemonicParsing="false" onAction="#onClickEconomy" text="Economy">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="Business" layoutX="164.0" layoutY="101.0" mnemonicParsing="false" onAction="#onClickBusiness" text="Business">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="FirstClass" layoutX="254.0" layoutY="101.0" mnemonicParsing="false" onAction="#onClickFirstClass" text="First Class">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+      </CheckBox>
+   </children>
+</Pane>
